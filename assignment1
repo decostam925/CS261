@@ -1,0 +1,13 @@
+The program could use a array to model a bag of marbles. 
+With variables for the marbles traits, such as color and size, these could also include more traits but for now we will keep it as simple as possible.
+The array would need to include functions such as add_marble, to add an item to the array, or marble to the bag. Could also include a remove_marble function.
+In order to keep track of where the marble is a count variable should be used; but this is not neccassary for now.
+The reason we need to keep track of the marbles in the array, or "bag" is because we will need to know where they are "sitting" in the array to properly remove them,
+unless we are just taking a random marble out. This is up to implementation. One could also remove the first or last marble if they chose.
+
+Tests:
+To make sure the bag or array is created you could allocate the storage and see the feedback when looking in the output terminal.
+Adding multiple marbles to the bag at a high magnitude will effectivly break the array, thus the bag holding the marbles, 
+Find a cutoff well before said break, or add a comment to user in program so that they are given the condition that the bag can only hold so many marbles.
+By making sure the program only breaks from an excess of marbles, and assuming user input is correct,
+the only error will be too big a bag of marbles and the one error message can handle that.
