@@ -11,3 +11,6 @@ Adding multiple marbles to the bag at a high magnitude will effectivly break the
 Find a cutoff well before said break, or add a comment to user in program so that they are given the condition that the bag can only hold so many marbles.
 By making sure the program only breaks from an excess of marbles, and assuming user input is correct,
 the only error will be too big a bag of marbles and the one error message can handle that.
+
+
+test to see it works
