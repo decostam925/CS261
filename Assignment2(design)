@@ -1,0 +1,58 @@
+Assignment 2:
+***********************************
+Do not implement any code this week!
+Based on what we know about linked lists, stacks, and queues, design a queue data structure:
+
+What functions are we likely to need for a queue to function like the one discussed in class?
+
+What values will we need to know about the structure for our queue to function properly?
+
+Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):
+
+What functions are we likely to need for a list to function like this?
+
+What values will we need to know about the structure for our list to function properly?
+
+Commit changes to your design into your git repo frequently while designing (in an obvious assignment 2 folder or repo),
+(Also remember to double check that I am a collaborator on your project or the git repo is otherwise accessible by the instructor)
+
+Submit a link to your git repo to Moodle to remind us to grade it.
+***********************************
+
+We will need a container to hold are data in. -> linked list in c++
+The container will need to be built and tested, which we will talk about later.
+our linked list will need to be established, we need to create nodes and pointers for each node like we worked on in class. This will also include push and pops,
+exactly like in class.
+we will use singulary linked node
+Node: 
+value
+next value
+
+
+FUNCTIONS:
+add item
+enQueue
+deQueue
+function that shows postion or maybe even value in queue.
+queue length to see how long the queue is, maybe a for loop or while loop to add a position to the queue if full.
+clear queue function (deletes all data in queue0
+peek function (moves to front of the queue without deleting it from the queue)
+
+
+Enqueue (steps):
+see if queue is full or empty.
+if full return error, exit.
+if empty add to list and use front of queue pointer to point at next element in container.
+
+Dequeue: 
+similiar to enqueue but removes.
+front pointer will still need to point to next spot in list.
+
+the linked list needs to be tested to make sure it is created. We can test it by making sure it is empty and running it, then manuely add a value to the linked list and run.
+In order to add to a specific spot in the list we will need to keep track of the position of the front and the back of the list.
+
+tests:
+see how many values can be put into the linked list.
+try to use enqueue with only 1 value in the list
+make sure it produces and overflow error when trying to add to a full list.
+
